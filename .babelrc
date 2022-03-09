@@ -1,0 +1,14 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env", //根据环境自动转换
+      {
+        "targets": {
+          "chrome": "58",
+          "ie": "10"
+        }
+      }
+    ]
+  ],
+  "plugins": [["@babel/plugin-transform-runtime"]]
+}
